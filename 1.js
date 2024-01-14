@@ -6,3 +6,5 @@
 // let num = 5
 
 // output [5,10,25,20,30]
+
+console.log('test')
