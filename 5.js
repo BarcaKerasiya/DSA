@@ -5,3 +5,14 @@
 // let arr_2 = [9, 2, 42, 55, 71, 22, 4,  5,  90, 25, 26]; // --> 351
 // // Example output:
 // // 276 + 351 = 627
+
+
+let arr_1 = [3, 5, 22, 5, 7, 2, 45, 75, 89, 21, 2];
+let arr_2 = [9, 2, 42, 55, 71, 22, 4, 5, 90, 25, 26];
+
+const arrays = (arr1, arr2) => arr1.reduce((a, b) => a + b, 0) + arr2.reduce((a, b) => a + b, 0);
+
+const result = arrays(arr_1, arr_2);
+
+console.log(result);
+
