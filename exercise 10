@@ -1,5 +1,12 @@
-Check if a string contains the letter “y”. Print “yes” if it does and “no” if it does not.
+// Check if a string contains the letter “y”. Print “yes” if it does and “no” if it does not.
 
 let str2 = "don’t know why";
 // Example output: 
 // “yes”
+
+
+if (str2.includes("y")) {
+    console.log("yes")
+}else{
+    console.log("no")
+}
